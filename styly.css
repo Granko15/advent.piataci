@@ -1,0 +1,62 @@
+body {
+	text-align: center;	
+	margin: 1em;
+	background-image: url('obrazky/pozadie5.jpg');
+	background-repeat: repeat;
+	background-size: 25%;
+	color: darkgoldenrod;
+}
+
+#hra {
+	border: 1px solid DarkGoldenRod;
+	border-width: 2px;
+	border-radius: 5px;
+	position: relative;
+	width: 1080px;
+	height: 720px;
+	margin: 0 auto;
+	background: url('obrazky/sviece.jpg');
+	background-size: cover;
+}
+p{
+	margin: 6px;
+}
+.nadpis{
+	background-color: bisque;
+	border-radius: 10px;
+	border-style: solid;
+	border-color:darkgoldenrod;
+	text-shadow: 1px 1px black;;
+	padding: 2px;
+	margin: 0px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+img {
+	width: 160px;
+	height: 160px;
+	cursor: pointer;
+	border: 1px solid darkgoldenrod;
+	border-radius: 5px;
+	border-width: 2px;
+	margin: 0 5px;
+}
+
+#hra > div {
+	position: relative;
+	display: inline-block;
+}
+
+#hra > div > span {
+	color: bisque;
+	font-weight: bold;
+	position: absolute;
+	left: 10px;
+	top: 5px;
+	text-shadow: 1px 1px saddlebrown;
+}
+
+#sprava {
+	color: red;
+}
